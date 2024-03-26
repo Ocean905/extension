@@ -1,0 +1,55 @@
+/* styles.css */
+
+.page {
+    width: 200px; /* 设置页面宽度为500px */
+    height: 150px; /* 设置页面高度为300px */
+    overflow-y: auto; /* 添加垂直滚动条，以防内容溢出 */
+}
+
+#sidebar {
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 200px;
+    width: 100px; /* 侧边栏宽度 */
+    background-color: #f0f0f0;
+    padding: 20px;
+    overflow-y: auto; /* 添加垂直滚动条，防止内容溢出 */
+}
+
+#sidebar button {
+    display: block;
+    margin-bottom: 17px;
+    width: 100%;
+    text-align: center;
+}
+#content button {
+    width: 200px;
+    background-color: rgb(194, 105, 105);
+    border-width: 0; /* 将按钮的边框宽度设置为0 */
+    border-style: none; /* 将按钮的边框样式设置为无 */
+    border-color: transparent; /* 或者您想要的具体宽度 */
+}
+
+.damageRectangle {
+    width: 200px; /* 长方形宽度 */
+    height: 100px; /* 长方形高度 */
+    background-color: #ff7f50; /* 设置长方形的背景颜色 */
+    margin-top: 20px; /* 上边距 */
+    text-align: center; /* 文字居中 */
+    line-height: 100px; /* 文字垂直居中 */
+    color: white; /* 文字颜色 */
+}
+
+#content {
+    margin-left: 140px; /* 为侧边栏留出空间 */
+    padding: 20px;
+    height: 100%;
+    width: calc(100% - 140px); 
+}
+
+.hidden {
+    display: none;
+    background-color: rgb(194, 105, 105);
+    color: green;
+}
